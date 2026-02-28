@@ -181,8 +181,8 @@ This runs full-image inference on the target test GeoTIFF and outputs `inference
 
 | Notebook | Description |
 |----------|-------------|
-| `code.ipynb` | Complete end-to-end workflow - data loading, model definition, training, evaluation, and visualization |
-| `inference.ipynb` | Load the pre-trained `best_model.pth` and run inference on any GeoTIFF - no training required |
+| [code.ipynb](https://github.com/HarshShinde0/tree-orchard-detection/blob/main/code.ipynb) | Complete end-to-end workflow - data loading, model definition, training, evaluation, and visualization |
+| [inference.ipynb](https://github.com/HarshShinde0/tree-orchard-detection/blob/main/inference.ipynb) | Load the pre-trained `best_model.pth` and run inference on any GeoTIFF - no training required |
 
 ## Pipeline Summary
 
