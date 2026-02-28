@@ -83,6 +83,7 @@ To train on the full 4-band multispectral data (not just the visual RGB PNGs), w
 #### Annotated TIF Tile Previews
 
 To verify the annotations have been accurately mapped back onto the original GeoTIFFs, we generated previews overlaid with the annotated masks (green dots represent individual trees):
+
 | Train Data Previews | Test Data Previews |
 |:---:|:---:|
 | <img src="images/grid_train.png" alt="Train Grid" width="200"> | <img src="images/grid_test.png" alt="Test Grid" width="200"> |
