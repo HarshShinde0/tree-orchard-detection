@@ -179,6 +179,8 @@ This runs full-image inference on the target test GeoTIFF and outputs `inference
 
 ## Notebooks
 
+*Kaggle - https://www.kaggle.com/code/harshshinde8/tree-orchard-detection*
+
 | Notebook | Description |
 |----------|-------------|
 | [code.ipynb](https://github.com/HarshShinde0/tree-orchard-detection/blob/main/code.ipynb) | Complete end-to-end workflow - data loading, model definition, training, evaluation, and visualization |
