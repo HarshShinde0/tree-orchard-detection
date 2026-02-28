@@ -1,0 +1,21 @@
+data:
+  train_img: '../dataset/image/train'
+  train_mask: '../dataset/annotation/train'
+  test_img: '../dataset/image/test'
+  test_mask: '../dataset/annotation/test'
+
+inference:
+  target_image: '../tree_orchard_count_new1.tif'
+
+processing:
+  gaussian_sigma: 2.0
+  pred_thresh: 0.01
+
+training:
+  batch_size: 8
+  epochs: 20
+  lr: 0.001
+  model_save_path: '../best_model.pth'
+
+visualization:
+  vis_samples: 4
