@@ -169,11 +169,12 @@ python predict.py
 
 This runs full-image inference on the target test GeoTIFF and outputs `inference_output.png` containing the RGB render, predicted density map, and an overlay visualization.
 
-## Notebook
+## Notebooks
 
-The complete end-to-end workflow - data loading, model definition, training, evaluation, and visualization was developed and validated in a notebook.
-
-See `code.ipynb` to run the entire pipeline interactively.
+| Notebook | Description |
+|----------|-------------|
+| `code.ipynb` | Complete end-to-end workflow - data loading, model definition, training, evaluation, and visualization |
+| `inference.ipynb` | Load the pre-trained `best_model.pth` and run inference on any GeoTIFF - no training required |
 
 ## Pipeline Summary
 
