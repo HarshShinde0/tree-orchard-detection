@@ -79,6 +79,13 @@ To train on the full 4-band multispectral data (not just the visual RGB PNGs), w
   - Geospatial metadata (CRS, affine transform)
 - Simultaneously generates matching binary mask GeoTIFFs from the VOC XML bounding-box annotations.
 - Tiles with less than 30% valid pixels are automatically skipped.
+  
+#### Annotated TIF Tile Previews
+
+To verify the annotations have been accurately mapped back onto the original GeoTIFFs, we generated previews overlaid with the annotated masks (green dots represent individual trees):
+| Train Data Previews | Test Data Previews |
+|:---:|:---:|
+| <img src="images/grid_train.png" alt="Train Grid" width="200"> | <img src="images/grid_test.png" alt="Test Grid" width="200"> |
 
 **Output structure:**
 
